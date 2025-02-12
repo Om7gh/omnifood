@@ -474,13 +474,14 @@
                 eating well today. You can cancel or pause anytime. And the
                 first meal is on us!
               </p>
-              <form class="form" action="post">
+              <form class="form" action="post" name="sign-up" netlify>
                 <div class="input--container">
                   <label for="fullname">full name</label>
                   <input
                     type="text"
                     placeholder="john doe"
                     id="fullname"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -490,12 +491,13 @@
                     type="email"
                     placeholder="exemple@gmail.com"
                     id="email"
+                    name="email"
                     required
                   />
                 </div>
                 <div class="input--container">
                   <label for="select">where did you hear from us ?</label>
-                  <select id="select" required>
+                  <select id="select" name="select" required>
                     <option value="">please choose one option</option>
                     <option value="facebook">facebook</option>
                     <option value="youtube">youtube</option>
